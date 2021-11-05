@@ -1,12 +1,12 @@
-export const locationRoute = [
+export const location = [
 ["ikeja","maryland","ilupeju","palmgroove","jibowu","yaba","surulere"],
 ["oshodi","isolo","akoka"],
 ["amuwo","festac","satelite"],
-["apapa","trade fair","ojo alaba"],
+["apapa","trade-fair","ojo-alaba"],
 ["ogudu","ketu","magodo","omole","ojudu","ogba","agege"],
-["IJU", "ISHAGA","ABULE EGBA","ALIMOSHO","EJIGBO","IKOTUN","IGANDO"],
-["MARINA","LAGOS ISLAND","IKOYI","V I"],
-["IKOTA","VGC","AJAH","ABRAHAM ADESANYA","BADORE","SANGOTEDO","AWOYAYA"],
-["IKORODU"],
-["ELEKO","EPE","AGBARA","BADAGRY","DANGOTE REFINARY" ,"REDEEM CAMP","MOWE","IBAFO"]
+["iju", "ishaga","abule-egba","alimosho","ejigbo","ikotun","igando"],
+["marina","lagos-island","ikoyi","v-i"],
+["ikota","vgc","ajah","abraham-adesanya","badore","sangotedo","awoyaya"],
+["ikorodu"],
+["eleko","epe","agbara","badagry","dangote-refinary","redeem-camp","mowe","ibafo"]
 ];
