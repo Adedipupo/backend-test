@@ -13,8 +13,8 @@ app.use(logger("dev"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-// app.use(express.static(path.join(__dirname, '../', 'public')));
-// app.set('view engine', 'jade');
+app.use(express.static(path.join(__dirname, '../', 'public')));
+app.set('view engine', 'jade');
 
 app.use("/delivery", indexRouter);
 
@@ -36,7 +36,7 @@ app.use(function (
 
   // render the error page
   res.status(err.status || 500);
-  res.send("error");
+  res.render("error");
 });
 
 export default app;
