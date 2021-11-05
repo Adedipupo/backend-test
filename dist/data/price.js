@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.price = void 0;
-exports.price = [
+exports.priceList = void 0;
+exports.priceList = [
     ["1000", "1000", "1500", "2000", "1000", "1500", "1500", "1500", "2000", "2000"],
     ["1000", "1000", "1000", "1500", "1000", "1500", "1500", "1500", "2000", "2000"],
     ["1500", "1000", "1000", "1500", "1500", "1500", "1500", "1500", "2000", "2000"],

@@ -11,5 +11,5 @@ exports.location = [
     ["marina", "lagos-island", "ikoyi", "v-i"],
     ["ikota", "vgc", "ajah", "abraham-adesanya", "badore", "sangotedo", "awoyaya"],
     ["ikorodu"],
-    ["eleko", "epe", "agbara", "badagry", "dangote-refinary", "redeem-camp", "mowe", "IBAFO"]
+    ["eleko", "epe", "agbara", "badagry", "dangote-refinary", "redeem-camp", "mowe", "ibafo"]
 ];

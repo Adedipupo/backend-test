@@ -5,7 +5,6 @@ import cookieParser from "cookie-parser";
 import logger from "morgan";
 
 import indexRouter from "./routes/index";
-import usersRouter from "./routes/users";
 
 const app = express();
 
@@ -14,10 +13,10 @@ app.use(logger("dev"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, '../', 'public')));
+// app.use(express.static(path.join(__dirname, '../', 'public')));
+// app.set('view engine', 'jade');
 
-app.use("/", indexRouter);
-app.use("/users", usersRouter);
+app.use("/delivery", indexRouter);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
@@ -37,7 +36,7 @@ app.use(function (
 
   // render the error page
   res.status(err.status || 500);
-  res.render("error");
+  res.send("error");
 });
 
 export default app;
