@@ -6,7 +6,7 @@
     "start": "node ./bin/www",
     "tsc": "tsc -p ./tsconfig.json",
     "start:dev": "nodemon --watch src/ --exec \"yarn serve\" -e ts",
-    "serve": "yarn tsc && node ./bin/www",
+    "serve": "yarn tsc && node ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
